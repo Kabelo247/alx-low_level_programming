@@ -2,9 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main To check if a number is postive, negative, or zero.
+ * main - Entry point
+ * Description: To check if a number is postive, negative, or zero.
  *
- * Return 0 on success
+ * Return: Always 0 on success
  */
 int main(void)
 {
@@ -20,8 +21,8 @@ int main(void)
 	else if (n > 0)
 	{
 		printf("%d is %s\n", n, "postive");
-	}	
-	else 
+	}
+	else
 	{
 		printf("%d is %s\n", n, "zero");
 	}
