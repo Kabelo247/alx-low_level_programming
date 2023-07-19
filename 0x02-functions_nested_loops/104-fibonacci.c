@@ -6,20 +6,19 @@
  */
 int main(void)
 {
-	int i = 0;
-	unsigned long int a = 0, b = 1, next = 0;
+	int count;
+	unsigned long fibo1 = 0, fibo2 = 1, sum;
 
-	while (i < 98)
+	for (count = 0; count < 50; count++)
 	{
-		next = a + b;
-		a = b;
-		b = next;
-		printf("%lu", next);
+		sum = fibo1 + fibo 2;
+		printf("%lu", sum);
 
-		if (i < 97)
-			printf(",");
-		i++;
+		fibo1 = fibo2;
+		fibo2 = sum;
+
+		if (count == 49)
+			printf("\n");
 	}
-	putchar('\n');
 	return (0);
 }
