@@ -29,6 +29,7 @@ char *create_buffer(char *file)
 void close_file(int fd)
 {
 	int c;
+
 	c = close(fd);
 
 	if (c == -1)
